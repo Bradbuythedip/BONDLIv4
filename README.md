@@ -38,9 +38,15 @@ Bondli is an AI-powered trading terminal for Solana memecoins built on [Nosana](
 | [API Reference](docs/BONDLI_API.md) | Complete REST API documentation |
 | [GPU & Nosana Guide](docs/GPU_NOSANA_GUIDE.md) | GPU earnings setup and management |
 | [GPU Training Guide](docs/GPU_TRAINING_GUIDE.md) | LoRA model training and inference |
-| [Technical Architecture](docs/TECHNICAL_ARCHITECTURE.md) | System architecture diagrams |
+| [Technical Architecture](docs/TECHNICAL_ARCHITECTURE.md) | Full system architecture diagrams |
+| [Architecture Overview](docs/ARCHITECTURE_OVERVIEW.md) | Stack, brain, and GPU pipeline diagrams |
+| [GPU Earnings Deep Dive](docs/GPU_EARNINGS_DEEP_DIVE.md) | Supply/demand mechanics, NOS burn flow |
+| [Repo Structure](docs/REPO_STRUCTURE.md) | Full codebase file tree |
+| [Quick Start & Config](docs/QUICKSTART.md) | Setup, env vars, NPM scripts, Redis schema |
 | [Grant Proposal](docs/GRANT_PROPOSAL.md) | Nosana grant proposal one-pager |
 | [Grant Application](docs/NOSANA_GRANT_ANSWERS.md) | Detailed Nosana grant application |
+
+**Related:** [BRAD](https://github.com/Bradbuythedip/brad) — Self-aware AI trading brain (cognitive sidecar for Bondli)
 
 ---
 
@@ -159,3 +165,27 @@ Users burn $NOS to run alpha tools → better tools improve win rates → more p
 - Built-in assistant powered by xAI's Grok 4, trained on Bondli + Nosana GPU knowledge
 - Knows about GPU Alpha Tools, NOS burn flywheel, node setup, earnings, troubleshooting
 - Context-aware: understands your node status, tier, and feature access
+
+---
+
+## Philosophy
+
+1. **GPUs should earn money when idle.** Nosana pays NOS tokens per second for AI inference. Bondli makes it one command.
+
+2. **Trading tools should make decisions, not just show data.** Score derivatives apply physics to token analysis — velocity and acceleration are leading indicators.
+
+3. **GPU demand should come from real usage.** Every premium alpha tool burns NOS on Nosana's network. Users get better trading tools, Nosana gets sustained demand — no artificial tokenomics.
+
+4. **Tiered access, not paywalls.** Free users get the full radar + scoring engine. Pro unlocks auto-trading. VIP unlocks GPU Alpha Tools, compute jobs, and smart money signals. Value scales with commitment.
+
+---
+
+## Status
+
+Live on Solana mainnet. GPUs earning. NOS burning. AI learning.
+
+**$BONDLI** — [pump.fun](https://pump.fun) · **Nosana Partner** — [nosana.com](https://nosana.com)
+
+---
+
+MIT License
